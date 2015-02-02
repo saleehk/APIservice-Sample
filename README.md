@@ -1,5 +1,5 @@
 # APIservice-Sample
-Sample Boiler plate code for Any API service with OkHttp + Retrofit
+Sample Boilerplate code for Any API service with OkHttp + Retrofit
 This example show simple way to create a client for any endpoint (This uses github)
 ##To set use in your own endpoint 
   1.  Set your end point url in 
@@ -29,7 +29,7 @@ This example show simple way to create a client for any endpoint (This uses gith
   ```
   2. You can Start using like below
   
-    1. For cached Request
+   1. For cached Request
       ```java
       
       ServiceApi.getInstance().getCachedApiService().getRepositories(new Callback<List<Repo>>() {
@@ -70,5 +70,4 @@ This example show simple way to create a client for any endpoint (This uses gith
 * [Retrofit](http://square.github.io/retrofit/)
 * [OkHttp](http://square.github.io/okhttp/)
 * Special Thanks  to (https://github.com/Drivemode/SpotifyApi) Inspired from
-* 
 
